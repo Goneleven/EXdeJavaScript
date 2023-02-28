@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    text-align: center;
 }
 
 body {
@@ -11,7 +10,6 @@ body {
 
 .body-index {
     height: 100vh;
-    color: white;
 
 }
 
@@ -21,7 +19,8 @@ nav {
     margin: auto 30px;
 }
 
-nav h1 {
+nav a, h1 {
     font-weight: bold;
     color: black;
+    text-align: center;
 }

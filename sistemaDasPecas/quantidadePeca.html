@@ -5,31 +5,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Sistema de Peças - QUANTIDADE</title>
 </head>
+<body class="body-index">
+    <header>
+        <nav>
+            <a href="../index.html">Home|</a><br>
+            <a href="../impar-par/calcular.html">Impar Ou Par|</a>
+            <a href="../sistemaDasPecas/nomePeca.html">Nome-Peças|</a>
+            <a href="../sistemaDasPecas/pesoPeca.html">Peso-Peças|</a>
+            <a href="../sistemaDasPecas/quantidadePeca.html">Quant.-Peças|</a>
+        </nav>
+    </header>
 
-<body>
+    <fieldset>
+        <input type="text" placeholder="Quantidade de Peças" id="quantidade">
 
-    <body>
+        <button onclick="enviarQuantidade()" class="botao">Enviar
+        </button>
 
-        <body class="body-index">
-            <header>
-                <nav>
-                    <a href="index.html">Home|</a>
-                    <a href="calcular.html">Impar Ou Par|</a>
-                    <a href="sistemaDePecas.html">Peças|</a>
-                </nav>
-            </header>
+    </fieldset>
 
-            <fieldset>
-                <input type="text" placeholder="Quantidade de Peças" id="quantidade">
-
-                <button onclick="enviarQuantidade()" class="botao">Enviar
-                </button>
-
-            </fieldset>
-
-            <script src="javaScript/scriptQuantidade.js"></script>
-        </body>
+    <script src="javaScript/scriptQuantidade.js"></script>
+</body>
 
 </html>
